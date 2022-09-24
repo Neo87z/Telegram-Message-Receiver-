@@ -26,7 +26,7 @@ def GetAllMessages():
         FinalData = {
             "FianlData": AllData
         }
-        print(type(FinalData))
+
         return FinalData
 
     except Exception as eB:
